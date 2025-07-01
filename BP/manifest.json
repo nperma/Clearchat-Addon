@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "nperma"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/nperma",
+        "generated_with": {}
+    },
+    "header": {
+        "name": "Clearchat [BP]",
+        "description": "command: /clearchat, required actived experimental Beta-API",
+        "min_engine_version": [
+            1,
+            21,
+            90
+        ],
+        "uuid": "a733bced-b7de-40c5-dd02-c1affbb1bc33",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "behavior",
+            "type": "script",
+            "uuid": "dde371fb-9d6e-4380-db3c-c6f881825237",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0-beta"
+        },
+        {
+            "uuid": "26c2eb09-8a1d-4ebc-d18a-f341345c40a4",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "subpacks": []
+}
