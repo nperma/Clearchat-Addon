@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "nperma"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/nperma",
+        "generated_with": {}
+    },
+    "header": {
+        "name": "Clearchat [RP]",
+        "description": "Clearchat resources pack",
+        "min_engine_version": [
+            1,
+            21,
+            90
+        ],
+        "uuid": "26c2eb09-8a1d-4ebc-d18a-f341345c40a4",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "resource",
+            "type": "resources",
+            "uuid": "e891f4a3-4140-4eb5-c094-a6088d56cb9f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "a733bced-b7de-40c5-dd02-c1affbb1bc33",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "subpacks": []
+}
