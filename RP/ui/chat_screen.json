@@ -1,0 +1,11 @@
+{
+  "namespace": "chat",
+  
+  "messages_text/text": {
+    "bindings":[{
+      "binding_type": "view",
+      "source_property_name": "(not (#text = 'clearchat-nperma'))",
+      "target_property_name": "#visible"
+    }]
+  }
+}
