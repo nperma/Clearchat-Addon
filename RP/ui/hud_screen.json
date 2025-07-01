@@ -1,0 +1,17 @@
+{
+  "namespace": "hud",
+  "chat_grid_item/chat_background": {
+    "bindings": [{
+      "binding_name": "#chat_text",
+      "binding_name_override": "#text",
+      "binding_type": "collection",
+      "binding_collection_name": "chat_text_grid",
+      "binding_condition": "once"
+    },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not(#text = 'clearchat-nperma'))",
+        "target_property_name": "#visible"
+      }]
+  }
+}
